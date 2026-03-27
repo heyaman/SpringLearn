@@ -27,7 +27,7 @@ So in this example:
 
 Inversion of Control means we do not let a class create its own dependencies. Instead, the dependency is provided to the class from the outside.
 
-For example, `CoursePurchaser` does not create a `SanketCourse` itself. It only knows about the interface `JavaCourse`:
+For example, `CoursePurchaser` does not create a `SanketCourses` itself. It only knows about the interface `JavaCourse`:
 
 ```java
 public class CoursePurchaser {
